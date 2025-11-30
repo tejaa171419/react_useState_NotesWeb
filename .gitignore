@@ -1,7 +1,7 @@
 # Node modules
 node_modules/
 
-# Build files
+# Build outputs
 dist/
 build/
 
@@ -23,3 +23,39 @@ pnpm-debug.log
 # OS files
 .DS_Store
 Thumbs.db
+
+# Vite related
+.vite/
+.env.*
+
+# Temporary files
+.tmp/
+.temp/
+
+# Editor files
+*.swp
+*.swo
+
+# Coverage directory used by Jest
+coverage/
+
+# Dependency directories
+jspm_packages/
+
+# Typescript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# parcel-bundler cache (if you switch to Parcel)
+.cache/
+
+# next.js build output (if you switch to Next.js)
+.next/
+
+# misc
+*.log
